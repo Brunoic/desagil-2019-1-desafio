@@ -5,6 +5,7 @@ public class Model {
     private final Element target;
     private final HumanPlayer humanPlayer;
     private final CpuPlayer cpuPlayer;
+    private Player winner;
 
     private Player winner;
 
@@ -43,4 +44,6 @@ public class Model {
     public CpuPlayer getCpuPlayer() {
         return cpuPlayer;
     }
+
+
 }
